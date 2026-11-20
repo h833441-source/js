@@ -1,30 +1,46 @@
+let month = +prompt("Oy raqamini kiriting");
 
-
-
-let menu = Number(prompt("1. Balans 2. Pul yechish 3. Pul qoshish 4. Chiqish")) 
-
-switch (menu) {
-  case 1:
-    console.log("1 000 000 so'm");
-    
+switch (month) {
+  case 12:
+    console.log("Qish");
     break;
-    case 2:
-    console.log("1 000 000 so'm yechildi");
-    
+      case 1:
+    console.log("Qish");
     break;
-
-    case 3:
-    console.log("1 000 000 so'm qoshildi");
-    
+      case 2:
+    console.log("Qish");
     break;
-    case 4:
-    console.log("Chiqdiz");
-    
+     case 3:
+    console.log("Bahor");
+    break;
+  case 4:
+    console.log("Bahor");
     break;
 
+  case 5:
+    console.log("Bahor");
+    break;
+ case 6:
+    console.log("Yoz");
+    break;
+     case 7:
+    console.log("Yoz");
+    break;
+  case 8:
+    console.log("Yoz");
+    break;
+
+  case 9:
+    console.log("Kuz");
+    break;
+      case 10:
+    console.log("Kuz");
+    break;
+      case 11:
+    console.log("Kuz");
+    break;
   default:
-  
-    
-    break;
+    console.log("Noto'g'ri");
 }
+
 
