@@ -1,46 +1,25 @@
-let month = +prompt("Oy raqamini kiriting");
 
-switch (month) {
-  case 12:
-    console.log("Qish");
+let rol = prompt("Kriting")
+switch (rol) {
+  case "admin":
+    console.log("Admin paneliga xush kelibsiz!");
+    
     break;
-      case 1:
-    console.log("Qish");
+      case "manager":
+    console.log("Manager paneliga xush kelibsiz");
+    
     break;
-      case 2:
-    console.log("Qish");
+      case "teacher":
+    console.log("O'qituvchi paneliga xush kelibsiz");
+    
     break;
-     case 3:
-    console.log("Bahor");
-    break;
-  case 4:
-    console.log("Bahor");
-    break;
-
-  case 5:
-    console.log("Bahor");
-    break;
- case 6:
-    console.log("Yoz");
-    break;
-     case 7:
-    console.log("Yoz");
-    break;
-  case 8:
-    console.log("Yoz");
+      case "student":
+    console.log("O'quvchi paneliga xush kelibsiz");
+    
     break;
 
-  case 9:
-    console.log("Kuz");
-    break;
-      case 10:
-    console.log("Kuz");
-    break;
-      case 11:
-    console.log("Kuz");
-    break;
   default:
-    console.log("Noto'g'ri");
+    console.log("Sizda ruxsat mavjud emas");
+    
+    break;
 }
-
-
