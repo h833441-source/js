@@ -1,18 +1,30 @@
-let parol = prompt("parol kriting");
 
-if ( parol <= 10){
-    alert("Parol juda qisqa")
-} else if (parol <= 15){
-    alert ("Parol o'rtacha")
-} else if ( parol <= 20){
-    alert("Parol juda uzun")
+
+
+let menu = Number(prompt("1. Balans 2. Pul yechish 3. Pul qoshish 4. Chiqish")) 
+
+switch (menu) {
+  case 1:
+    console.log("1 000 000 so'm");
+    
+    break;
+    case 2:
+    console.log("1 000 000 so'm yechildi");
+    
+    break;
+
+    case 3:
+    console.log("1 000 000 so'm qoshildi");
+    
+    break;
+    case 4:
+    console.log("Chiqdiz");
+    
+    break;
+
+  default:
+  
+    
+    break;
 }
 
-const meva = prompt("Meva nomini kirining")
-if (meva === "apple"){
-    alert("bu olma")
-}if (meva === "banana"){
-    alert("bu banana")
-}if (meva === "orange"){
-    alert("bu orange")
-}
