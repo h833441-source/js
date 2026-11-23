@@ -1,25 +1,27 @@
 
-let rol = prompt("Kriting")
-switch (rol) {
-  case "admin":
-    console.log("Admin paneliga xush kelibsiz!");
-    
+let num1 = Number(prompt("Birinchi son kiriting"))
+let num2 = Number(prompt("Ikkinchi son kiriting"))
+let operator = prompt("shu dan tanlang  +, -, *, /")
+let result
+switch (operator) {
+  case "+":
+
+    result = num1 + num2 
     break;
-      case "manager":
-    console.log("Manager paneliga xush kelibsiz");
-    
+      case "-":
+
+    result = num1 - num2 
     break;
-      case "teacher":
-    console.log("O'qituvchi paneliga xush kelibsiz");
-    
+      case "*":
+
+    result = num1 * num2 
     break;
-      case "student":
-    console.log("O'quvchi paneliga xush kelibsiz");
-    
+      case "/":
+
+    result = num1 / num2 
     break;
 
   default:
-    console.log("Sizda ruxsat mavjud emas");
-    
     break;
 }
+alert("Javob:" + result)
