@@ -1,27 +1,10 @@
 
-let num1 = Number(prompt("Birinchi son kiriting"))
-let num2 = Number(prompt("Ikkinchi son kiriting"))
-let operator = prompt("shu dan tanlang  +, -, *, /")
-let result
-switch (operator) {
-  case "+":
-
-    result = num1 + num2 
-    break;
-      case "-":
-
-    result = num1 - num2 
-    break;
-      case "*":
-
-    result = num1 * num2 
-    break;
-      case "/":
-
-    result = num1 / num2 
-    break;
-
-  default:
-    break;
+function showCar(brand, model, year) {
+    console.log("Markasi: " + brand);
+    console.log("Modeli: " + model);
+    console.log("Yili: " + year);
 }
-alert("Javob:" + result)
+
+showCar("BMW", "M5", 2024);
+showCar("Mercedes", "AMG GT", 2023);
+showCar("Toyota", "Camry", 2022);
