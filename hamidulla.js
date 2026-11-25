@@ -1,10 +1,17 @@
+const numbers = [10, 20, 30, 40, 50]
 
-function showCar(brand, model, year) {
-    console.log("Markasi: " + brand);
-    console.log("Modeli: " + model);
-    console.log("Yili: " + year);
-}
+numbers.forEach((number, index) =>{
+numbers[index] = number * 2
 
-showCar("BMW", "M5", 2024);
-showCar("Mercedes", "AMG GT", 2023);
-showCar("Toyota", "Camry", 2022);
+})
+
+
+console.log(numbers);
+
+
+const fruits = ["Apple", "Banana", "Strawberry", "Orange"]
+fruits.forEach((fruit, index) =>{
+
+    console.log(index, fruit);
+    
+})
